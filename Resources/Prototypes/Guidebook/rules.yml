@@ -19,10 +19,10 @@
   id: DefaultServerRules
   name: guide-entry-rules
   priority: 60
-  text: "/ServerInfo/_BRatbite/Guidebook/ServerRules/DefaultServerRules.xml"
+  text: "/ServerInfo/Guidebook/ServerRules/NeptuneStation/DefaultServerRules.xml"
 #  children:
 #  - SOP
-  
+
 #- type: guideEntry
 #  id: SOP
 #  name: guide-entry-rules-sop
@@ -31,7 +31,7 @@
 #  text: "/ServerInfo/Guidebook/_Ratbite/ServerRules/SOP/StandardOperatingProcedure.xml"
 #  children:
 #  - CentralCommand
-  
+
 #- type: guideEntry
 #  id: CentralCommand
 #  name: guide-entry-rules-cc
