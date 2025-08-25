@@ -1,0 +1,9 @@
+Name: Neptune #i've got no clue how to cahnge the name from "changelog-title-neptune" to normally just "neptune"
+Order: -1
+Entries:
+- author: Henhen
+  changes:
+    - type: Remove
+      message: fun is gone!
+  id: 3
+  time: '2025-06-15T12:54:44.0000000+00:00'
