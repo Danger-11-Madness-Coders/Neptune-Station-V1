@@ -10,9 +10,9 @@
 
 # Rules
 
-ui-rules-header = Ratbite Station Official Server Rules
-ui-rules-header-rp = Ratbite Station Roleplay Official Server Rules
-ui-rules-accept = I have read and agree to follow the rules. (I also emancipate my soul from Kira)
+ui-rules-header = Neptune Station Official Server Rules
+ui-rules-header-rp = Neptune Station Roleplay Official Server Rules
+ui-rules-accept = I have read and agree to follow the rules. (I also sell my soul for 25 bucks to the homless man outside my window)
 ui-rules-wait = The accept button will be enabled after {$time} seconds.
 
 ui-rules-button-home = Home
