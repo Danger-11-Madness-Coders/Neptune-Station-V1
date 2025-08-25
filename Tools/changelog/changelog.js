@@ -47,12 +47,9 @@ async function main() {
     // Time is something like 2021-08-29T20:00:00Z
     // Time should be something like 2023-02-18T00:00:00.0000000+00:00
     let time = merged_at;
-    if (time)
-    {
+    if (time) {
         time = time.replace("z", ".0000000+00:00").replace("Z", ".0000000+00:00");
-    }
-    else
-    {
+    } else {
         console.log("Pull request was not merged, skipping");
         return;
     }
@@ -86,8 +83,7 @@ function getChanges(body) {
         matches.push([match[1], match[2]]);
     }
 
-    if (!matches)
-    {
+    if (!matches) {
         console.log("No changes found, skipping");
         return;
     }
@@ -156,8 +152,8 @@ function writeChangelog(entry) {
     // Write updated changelogs file
     fs.writeFileSync(
         `../../${process.env.CHANGELOG_DIR}`,
-        "Name: Gooblog\nOrder: -1\nEntries:\n" + // IF YOU ARE A FORK, CHANGE THIS!!!!!!!!!!!!
-            yaml.dump(data.Entries, { indent: 2 }).replace(/^---/, "")
+        "Name: Neptune\nOrder: -1\nEntries:\n" + // IF YOU ARE A FORK, CHANGE THIS!!!!!!!!!!!!
+        yaml.dump(data.Entries, { indent: 2 }).replace(/^---/, "")
     );
 }
 
